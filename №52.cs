@@ -58,4 +58,4 @@ var myMatrix = GenerateMatrix(m, n);
 double[] z =  Mean(myMatrix, n);
 PrintMatrix(myMatrix);
 System.Console.WriteLine("Среднее арифметическое каждого столбца:");
-System.Console.Write(string.Join("\t",(z)));
+System.Console.Write(string.Join("\t",(z))); 
