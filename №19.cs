@@ -4,7 +4,7 @@
 // 23432 -> да
 System.Console.WriteLine("Введите пятизначное число " );
 string? number = Console.ReadLine();
-int firstNum = Convert.ToInt32(Convert.ToString(number![0]));
+int firstNum = Convert.ToInt32(Convert.ToString(number![0])); 
 int fivthNum = Convert.ToInt32(Convert.ToString(number![4]));
 if (number!.Length < 5 || number!.Length > 5)
 {

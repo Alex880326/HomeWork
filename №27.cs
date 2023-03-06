@@ -5,7 +5,7 @@
 // System.Console.WriteLine("Введите число " );
 // string? number = Console.ReadLine();
 int ReadInt(string text)
-{
+{ 
     System.Console.WriteLine(text);
     return Math.Abs(Convert.ToInt32(Console.ReadLine()));
 }

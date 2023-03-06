@@ -8,7 +8,7 @@ int count = 0;
 int GenerateArray(int[]myArray)
 {
     for (int i = 0; i < myArray.Length; i++)
-    if (myArray[i] > 0)
+    if (myArray[i] > 0) 
     {
         count++;
     }

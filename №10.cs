@@ -2,7 +2,7 @@
 
 // 456 -> 5
 // 782 -> 8
-// 918 -> 1
+// 918 -> 1 
 System.Console.WriteLine("Введите число ");
 int number = Convert.ToInt32(Console.ReadLine());
 int number1 = number / 10;

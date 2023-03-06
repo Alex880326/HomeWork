@@ -8,7 +8,7 @@ void PrintArray(int[] array)
 }
 double Prompt(string message)
 {
-  Console.Write(message);
+  Console.Write(message); 
   double num = Convert.ToDouble(Console.ReadLine()!);
   return num;
 }

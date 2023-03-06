@@ -16,7 +16,7 @@ double[,] GenerateMatrix(int m, int n)
     double[,] matrix = new double [m, n];
     Random rand = new Random();
     for(int i = 0; i < m; i++)
-    {
+    { 
         for(int j = 0; j < n; j++)
         {
             matrix[i,j] = Convert.ToDouble(new Random().Next(-1000,1000)) / 100;

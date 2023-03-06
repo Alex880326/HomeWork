@@ -4,7 +4,7 @@
 System.Console.WriteLine("Введите основание степени: ");
 int num = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введите степень: ");
-int mul = Convert.ToInt32(Console.ReadLine());
+int mul = Convert.ToInt32(Console.ReadLine()); 
 if (mul <= 0)
 {
      System.Console.WriteLine("введите мультипликатор больше чем 0");

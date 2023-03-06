@@ -5,7 +5,7 @@
 void Array(int[] arr)
 {
     Random rand = new Random();
-    for (int i = 0; i < arr.Length; i++)
+    for (int i = 0; i < arr.Length; i++) 
     {
         arr[i] = rand.Next(1,100);
     }    

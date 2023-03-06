@@ -8,7 +8,7 @@ double max = Int32.MinValue;
 
 for (int i = 0; i < numbers.Length; i++)
 {
-    if (numbers[i] > max)
+    if (numbers[i] > max) 
         {
             max = numbers[i];
         }

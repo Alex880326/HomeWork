@@ -4,7 +4,7 @@
 // 32679 -> 6
 System.Console.WriteLine("Введите число ");
 int number = Convert.ToInt32(Console.ReadLine());
-int N = number % 10;
+int N = number % 10; 
 if (number < 99)
 {
     System.Console.WriteLine("Отсутствует наличие третьего числа, попробуйте снова ");

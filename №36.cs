@@ -6,7 +6,7 @@ int[] array = randomArray(6);
 System.Console.WriteLine($"Сумма нечетных элементов массива[{string.Join(",", array)}] равна {sumodd(array)}.");
 
 int[] randomArray(int size)
-{
+{ 
     Random random = new Random();
     int[] array = new int[size];
     for (int i = 0; i < array.Length; i++)

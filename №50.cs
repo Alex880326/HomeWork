@@ -35,9 +35,6 @@ void PrintMatrix(int[,] matrix)
             System.Console.Write(matrix[i, j] + "\t");
         }
         System.Console.WriteLine();
-        for (int j = 0; j < n; j++)
-                {
-                    a[n+1, j] = s[j];
     }
     Console.WriteLine("Введите координаты строки, а затем столбца искомого элемента: ");
     int a = Convert.ToInt32(Console.ReadLine());

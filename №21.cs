@@ -4,7 +4,7 @@
 System.Console.WriteLine("Введите координаты x точки А: ");
 
 int[] coordsA = new int[3];
-
+ 
 coordsA[0] = Convert.ToInt32(Console.ReadLine());
 
 System.Console.WriteLine("Введите координаты y точки A: ");
